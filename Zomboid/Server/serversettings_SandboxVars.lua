@@ -261,7 +261,7 @@ SandboxVars = {
     -- 1 = Never
     -- 2 = Once
     -- 3 = Sometimes
-    Helicopter = 2,
+    Helicopter = 1,
     -- How often zombie attracting metagame events like distant gunshots will occur.
     -- 1 = Never
     -- 2 = Sometimes
