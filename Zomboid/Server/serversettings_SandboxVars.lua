@@ -146,7 +146,7 @@ SandboxVars = {
     -- 2 = Fast (50 Days)
     -- 3 = Normal (100 Days)
     -- 4 = Slow (200 Days)
-    ErosionSpeed = 3,
+    ErosionSpeed = 4,
     -- Number of days until 100% growth. -1 means no growth. Zero means use the Erosion Speed option. Maximum 36,500 (100 years). Minimum=-1 Maximum=36500 Default=0
     ErosionDays = 0,
     -- Modifies the base XP gain from actions by this number. Minimum=0.00 Maximum=1000.00 Default=1.00
