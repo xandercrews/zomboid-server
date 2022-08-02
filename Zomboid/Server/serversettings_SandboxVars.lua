@@ -457,7 +457,7 @@ SandboxVars = {
         -- 1 = Superhuman
         -- 2 = Normal
         -- 3 = Weak
-        Strength = 3,
+        Strength = 2,
         -- Controls the difficulty to kill zombies.
         -- 1 = Tough
         -- 2 = Normal
@@ -475,7 +475,7 @@ SandboxVars = {
         -- 4 = 0-12 Hours
         -- 5 = 2-3 Days
         -- 6 = 1-2 Weeks
-        Mortality = 5,
+        Mortality = 7,
         -- Controls how quickly corpses rise as zombies.
         -- 1 = Instant
         -- 2 = 0-30 Seconds
@@ -525,7 +525,7 @@ SandboxVars = {
         -- Allows zombies to trigger house alarms when breaking through windows and doors.
         TriggerHouseAlarm = false,
         -- When enabled if multiple zombies are attacking they can drag you down to feed. Dependent on zombie strength.
-        ZombiesDragDown = false,
+        ZombiesDragDown = true,
         -- When enabled zombies will have a chance to lunge after climbing over a fence if you're too close.
         ZombiesFenceLunge = true,
     },
