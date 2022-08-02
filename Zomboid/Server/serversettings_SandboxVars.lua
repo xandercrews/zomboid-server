@@ -277,26 +277,26 @@ SandboxVars = {
     -- 4 = Often
     GeneratorSpawning = 3,
     -- How much fuel is consumed per in-game hour. Minimum=0.00 Maximum=100.00 Default=1.00
-    GeneratorFuelConsumption = 1.0,
+    GeneratorFuelConsumption = 0.3,
     -- Increase/decrease probability of discovering randomized safe houses on the map: either burnt out, containing loot stashes, dead survivor bodies etc.
     -- 1 = Never
     -- 2 = Extremely Rare
     -- 3 = Rare
     -- 4 = Sometimes
     -- 5 = Often
-    SurvivorHouseChance = 3,
+    SurvivorHouseChance = 4,
     -- 1 = Never
     -- 2 = Extremely Rare
     -- 3 = Rare
     -- 4 = Sometimes
     -- 5 = Often
-    VehicleStoryChance = 3,
+    VehicleStoryChance = 4,
     -- 1 = Never
     -- 2 = Extremely Rare
     -- 3 = Rare
     -- 4 = Sometimes
     -- 5 = Often
-    ZoneStoryChance = 3,
+    ZoneStoryChance = 4,
     -- Impacts on how often a looted map will have annotations marked on it by a deceased survivor.
     -- 1 = Never
     -- 2 = Extremely Rare
@@ -335,7 +335,7 @@ SandboxVars = {
     -- 1 = None
     -- 2 = Low
     -- 3 = Normal
-    DecayingCorpseHealthImpact = 3,
+    DecayingCorpseHealthImpact = 2,
     -- How much blood is sprayed on floor and walls.
     -- 1 = None
     -- 2 = Low
