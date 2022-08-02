@@ -194,7 +194,7 @@ SandboxVars = {
     -- 3 = Rare
     -- 4 = Sometimes
     -- 5 = Often
-    LockedHouses = 6,
+    LockedHouses = 5,
     -- Spawn with chips, water bottle, school bag, baseball bat and a hammer.
     StarterKit = false,
     -- Nutritional value of food affects the player's condition.
@@ -316,7 +316,7 @@ SandboxVars = {
     -- 1 = Pitch Black
     -- 2 = Dark
     -- 3 = Normal
-    NightDarkness = 3,
+    NightDarkness = 4,
     -- Governs the time from dusk to dawn.
     -- 1 = Always Night
     -- 2 = Long
