@@ -10,6 +10,8 @@ if [[ -z "$MY_PATH" ]] ; then
   exit 1  # fail
 fi
 
+SETTINGSNAME="${1:-serversettings}"
+
 ## remove ../ ./ 
 dir_resolve() {
   readlink -f "$@" || return $?
@@ -21,7 +23,9 @@ if REPO_SETTINGS_PATH="$(dir_resolve ${REPO_SETTINGS_RELATIVE})"; then
   SETTINGS="${REPO_SETTINGS_PATH}/serversettings.ini"
   VARS_LUA="${REPO_SETTINGS_PATH}/serversettings_SandboxVars.lua"
   
-  cp -a ~/Zomboid/Server/serversettings* "${REPO_SETTINGS_PATH}"
+  cp -a ~/Zomboid/Server/${SETTINGSNAME}.ini "${REPO_SETTINGS_PATH}/serversettings.ini"
+  cp -a ~/Zomboid/Server/${SETTINGSNAME}_SandboxVars.lua "${REPO_SETTINGS_PATH}/serversettings_SandboxVars.lua"
+  cp -a ~/Zomboid/Server/${SETTINGSNAME}_spawnregions.lua "${REPO_SETTINGS_PATH}/serversettings_spawnregions.lua"
   
   ## strip server noncey things
   sed -i 's/^\s*\(ResetID=\).*/\1/' "${SETTINGS}"
