@@ -34,7 +34,7 @@ SandboxVars = {
     -- 23 = 21 Hours
     -- 24 = 22 Hours
     -- 25 = 23 Hours
-    DayLength = 4,
+    DayLength = 3,
     StartYear = 1,
     -- 1 = January
     -- 2 = February
@@ -48,7 +48,7 @@ SandboxVars = {
     -- 10 = October
     -- 11 = November
     StartMonth = 7,
-    StartDay = 8,
+    StartDay = 9,
     -- 1 = 7 AM
     -- 2 = 9 AM
     -- 3 = 12 PM
@@ -57,7 +57,7 @@ SandboxVars = {
     -- 6 = 9 PM
     -- 7 = 12 AM
     -- 8 = 2 AM
-    StartTime = 3,
+    StartTime = 8,
     -- 1 = Instant
     -- 2 = 0-30 Days
     -- 3 = 0-2 Months
@@ -75,9 +75,9 @@ SandboxVars = {
     -- 7 = 2-6 Months
     ElecShut = 2,
     -- Minimum=-1 Maximum=2147483647 Default=14
-    WaterShutModifier = 14,
+    WaterShutModifier = 21,
     -- Minimum=-1 Maximum=2147483647 Default=14
-    ElecShutModifier = 14,
+    ElecShutModifier = 21,
     -- 1 = Extremely Rare
     -- 2 = Rare
     -- 3 = Normal
@@ -92,7 +92,7 @@ SandboxVars = {
     -- 2 = Rare
     -- 3 = Normal
     -- 4 = Common
-    LiteratureLoot = 5,
+    LiteratureLoot = 3,
     -- Seeds, Nails, Saws, Fishing Rods, various tools, etc...
     -- 1 = Extremely Rare
     -- 2 = Rare
@@ -196,7 +196,7 @@ SandboxVars = {
     -- 5 = Often
     LockedHouses = 5,
     -- Spawn with chips, water bottle, school bag, baseball bat and a hammer.
-    StarterKit = false,
+    StarterKit = true,
     -- Nutritional value of food affects the player's condition.
     Nutrition = true,
     -- Define how fast the food will spoil inside or outside fridge.
@@ -305,7 +305,7 @@ SandboxVars = {
     -- 5 = Often
     AnnotatedMapChance = 4,
     -- Adds free points during character creation. Minimum=-100 Maximum=100 Default=0
-    CharacterFreePoints = 0,
+    CharacterFreePoints = 9,
     -- Gives player-built constructions extra hit points so they are more resistant to zombie damage.
     -- 1 = Very Low
     -- 2 = Low

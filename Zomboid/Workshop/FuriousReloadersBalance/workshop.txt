@@ -1,0 +1,6 @@
+version=1
+id=2847750251
+title=Furious Reloaders Balance
+description=Repackaging and reconfigure AllSkillBooks and CatsReadMod to personal tastes
+tags=Build 41;Balance
+visibility=friendsOnly
